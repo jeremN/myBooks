@@ -1,0 +1,15 @@
+.Form__group {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-grow: 1;
+	margin: 0.5em 0;
+	width: 100%;
+}
+
+.Input {
+	width: 100%;
+	border: 1px solid #eaebf0;
+	padding: 0.5em;
+	height: 32px;
+}

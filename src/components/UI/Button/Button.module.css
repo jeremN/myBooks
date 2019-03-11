@@ -1,0 +1,16 @@
+.Button {
+	background: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	text-transform: uppercase;
+	height: 32px;
+}
+
+.Button--blue {
+	border: 1px solid #4c84ff;
+	background-color: #4c84ff;
+	color: white;
+}

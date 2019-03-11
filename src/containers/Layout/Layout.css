@@ -1,0 +1,6 @@
+.Layout {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 50%;
+	margin: 1em auto;
+}

@@ -1,0 +1,33 @@
+.Table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.Table tr {
+	background-color: white;
+	margin: 1em 0;
+	border-top: 8px solid #f5f6fa;
+	border-bottom: 8px solid #f5f6fa;
+	font-size: 0.875rem;
+	font-weight: 700;
+}
+
+.Table td,
+.Table th {
+	padding: 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Table td {
+	vertical-align: middle;
+	box-shadow: inset 0 2px 0 -1px #eaedf4, inset 0 -2px 0 -1px #eaedf4;
+}
+.Table td:first-child {
+    box-shadow: inset 1px 1px 0 0 #eaedf4, inset 0 -2px 0 -1px #eaedf4;
+}
+.Table td:last-child {
+    box-shadow: inset -1px 1px 0 0 #eaedf4, inset 0 -2px 0 -1px #eaedf4;
+}
