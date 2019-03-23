@@ -13,3 +13,8 @@
 	padding: 0.5em;
 	height: 32px;
 }
+
+.Label {
+	font-size: 14px;
+	font-weight: 700;
+}

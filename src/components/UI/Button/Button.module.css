@@ -13,4 +13,12 @@
 	border: 1px solid #4c84ff;
 	background-color: #4c84ff;
 	color: white;
+	margin: 1em 0 0 !important;
+	align-self: center;
+}
+
+.Button[disabled] {
+	pointer-events: none;
+	background-color: #f5f6fa;
+	border-color: #f5f6fa;
 }

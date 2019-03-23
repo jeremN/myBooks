@@ -4,3 +4,7 @@
 	max-width: 50%;
 	margin: 1em auto;
 }
+
+.Layout button:disabled {
+	background-color: #f5f6fa;
+}
